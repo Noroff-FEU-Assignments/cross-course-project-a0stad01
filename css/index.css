@@ -8,6 +8,7 @@ header {
     background-color:#E5E3E3;
     flex-grow: 1;
     display: flexbox;
+    flex-wrap: wrap;
     
 }
 
@@ -98,7 +99,7 @@ section a:hover {
 
 footer{
         background-color:#E5E3E3;
-        position: relative, sticky;
+        position: absolute, sticky;
         margin-top: 523px;
         padding: 20px;
         clear: both;
@@ -106,6 +107,8 @@ footer{
         justify-content: space-between;
         align-items: center;
         text-transform: uppercase;
+        z-index: 1000;
+        bottom: 0;
        
 
     
