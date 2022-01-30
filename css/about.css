@@ -1,0 +1,17 @@
+.about-image{
+    display: flex;
+    justify-content: left;
+    padding-top: 2rem;
+    max-height: 100%;
+    height: auto;
+}
+
+.about{
+    display: block;
+    justify-content: right;
+}
+
+.continueshoppingbutton{
+    justify-content: center;
+
+}
